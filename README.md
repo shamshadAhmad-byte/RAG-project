@@ -1,4 +1,4 @@
-# Adaptive RAG - Agentic AI Chatbot
+# RAG project - Agentic AI Chatbot
 
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Latest-green.svg)](https://fastapi.tiangolo.com/)
@@ -7,7 +7,7 @@
 
 ## 📋 Overview
 
-**Adaptive RAG** is an intelligent, end-to-end Retrieval-Augmented Generation (RAG) system powered by agentic AI architecture. It combines dynamic query routing, intelligent document retrieval, and advanced LLM capabilities to provide accurate, context-aware answers to user queries.
+**RAG project** is an intelligent, end-to-end Retrieval-Augmented Generation (RAG) system powered by agentic AI architecture. It combines dynamic query routing, intelligent document retrieval, and advanced LLM capabilities to provide accurate, context-aware answers to user queries.
 
 The system intelligently adapts its retrieval strategy based on query type, utilizing indexed documents, general knowledge, or real-time web search to generate comprehensive responses. Built with a modular architecture using LangGraph for workflow orchestration and multiple storage backends for scalability.
 
@@ -111,7 +111,7 @@ The system intelligently adapts its retrieval strategy based on query type, util
 ## 📦 Project Structure
 
 ```
-AdaptiveRag/
+RAG-project/
 ├── src/                              # Main source code
 │   ��── main.py                       # FastAPI application entry point
 │   ├── api/                          # API routes and endpoints
@@ -257,8 +257,8 @@ Form Data:
 
 ```bash
 # Clone the repository
-git clone https://github.com/dhruvsinghal09/Adaptive-Rag.git
-cd AdaptiveRag
+git clone https://github.com/shamshadAhmad-byte/RAG-project.git
+cd RAG-project
 
 # Create virtual environment
 python -m venv venv
@@ -449,11 +449,6 @@ python -m uvicorn src.main:app --reload
 python -m uvicorn src.main:app --host 0.0.0.0 --port 8000 --workers 4
 ```
 
-### Docker Support (Optional)
-Create `Dockerfile` and `docker-compose.yml` for containerized deployment.
-
----
-
 ## 📊 Performance Optimization
 
 - **Document Chunking**: Configurable chunk size (1000 chars, 150 overlap)
@@ -532,15 +527,6 @@ A: Yes, remove Tavily dependency. Queries will use index or general LLM only.
 
 ---
 
-## 💬 Support & Contact
-
-For issues, questions, or suggestions:
-- Open an [Issue](https://github.com/dhruvsinghal09/Adaptive-Rag/issues)
-- Check existing documentation
-- Review the code comments
-
----
-
 ## 🙏 Acknowledgments
 
 - Built with LangChain and LangGraph
@@ -549,20 +535,6 @@ For issues, questions, or suggestions:
 - Web search by Tavily
 - UI powered by Streamlit
 - Thanks to the open-source community
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👤 Author
-
-**Dhruv Singhal**
-- GitHub: [@dhruvsinghal09](https://github.com/dhruvsinghal09)
-- Project: [Adaptive RAG](https://github.com/dhruvsinghal09/Adaptive-Rag)
 
 ---
 
